@@ -1,0 +1,10 @@
+FROM python:3
+
+RUN pip install requests requests_toolbelt
+
+WORKDIR /home/
+
+COPY post.py .
+COPY allowed.txt .
+
+CMD ["python", "./post.py"]
