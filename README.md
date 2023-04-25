@@ -81,7 +81,7 @@ directory. To perform this analysis, run the following command:
 
 ## Phase 2 - Debloating of Web App using LIM
 
-In this phase, Minimalist uses the LIM interface to debloat web applications.
+In this phase, Minimalist uses the LIM interface to debloat web applications. 
 
 `step_2.sh` copies the web application to the LIM directory, builds the dockers,
 and runs the LIM's admin on port `8086`. You can access the LIM admin page on:
@@ -93,9 +93,9 @@ http://localhost:8086/admin/
 Next, you can upload the Minimalist results either automatically or through the
 user-interface provided by the LIM.
 
-<span style="color:red">
-Note: Use a different terminal for the rest of the artifact.
-</span>
+*Note: Use a different terminal for the rest of the artifact. For more
+information on LIM UI, you can visit this
+[link](https://lessismore.debloating.com/walkthrough.html).*
 
 #### Automatic Import of Minimalist results
 
